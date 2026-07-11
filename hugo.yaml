@@ -1,7 +1,132 @@
-baseURL: https://example.org/
-locale: en-us
-title: My New Hugo Project
-theme: ["PaperMod"]
+baseURL: "https://rexviv.github.io/"
+languageCode: "en-us"
+title: "Darren's Notes"
+theme: "PaperMod"
+pagination:
+  pagerSize: 10
+
+enableRobotsTXT: true
+enableEmoji: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+
+  title: "Darren's Notes"
+
+  description: >
+    Darren's Notes is a personal technical blog documenting research,
+    engineering practices, and learning experiences in Large Language Models,
+    Machine Learning, AI systems, and Financial AI.
+    Topics include model architecture, pretraining, post-training,
+    inference optimization, multimodal AI, retrieval-augmented generation,
+    AI agents, production engineering, and practical applications in
+    global financial systems.
+
+  keywords:
+    - LLM
+    - Large Language Models
+    - Machine Learning
+    - AI
+    - Financial AI
+    - Deep Learning
+    - PyTorch
+    - Algorithm Engineering
+
+  author: Darren
+
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  DateFormat: "January 2, 2006"
+
+  homeInfoParams:
+    Title: "Hi, I'm Darren 👋"
+
+    Content: >
+      **Large Language Model Algorithm Engineer at Ant International**,
+      building AI solutions for global financial systems.
+
+      Sharing notes on Large Language Models, Machine Learning,
+      AI Engineering, research papers, and real-world production experiences.
+
+  ShowReadingTime: true
+  ShowWordCount: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+
+  ShowShareButtons: false
+  ShowRssButtonInSectionTermList: true
+
+  UseHugoToc: true
+  showtoc: true
+  tocopen: false
+
+  comments: false
+
+  hideSummary: false
+  hidemeta: false
+
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+
+  socialIcons: []
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 20
+
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 30
+
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 40
+
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 50
+
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 60
+
+taxonomies:
+  category: categories
+  tag: tags
+
+markup:
+  highlight:
+    noClasses: false
+    lineNos: false
+
+  goldmark:
+    renderer:
+      unsafe: true
+
 caches:
   images:
     dir: :cacheDir/images
+    
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON

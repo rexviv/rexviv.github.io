@@ -3,9 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-07-11T11:53:46+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2026-07-11T11:53:46+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/llm/</loc>
+    <lastmod>2026-07-11T11:53:46+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/llm-foundations/</loc>
+    <lastmod>2026-07-11T11:53:46+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-07-11T11:53:46+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-07-11T11:53:46+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/transformer/</loc>
+    <lastmod>2026-07-11T11:53:46+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/llm-notes-01/</loc>
+    <lastmod>2026-07-11T11:53:46+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
+  </url><url>
+    <loc>http://localhost:1313/archives/</loc>
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>

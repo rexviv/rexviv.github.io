@@ -1,11 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Project</title>
+    <title>Darren&#39;s Notes</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Project</description>
+    <description>Recent content on Darren&#39;s Notes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 11 Jul 2026 11:53:46 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>大语言模型学习笔记（一）：基础概念整理</title>
+      <link>http://localhost:1313/posts/llm-notes-01/</link>
+      <pubDate>Sat, 11 Jul 2026 11:53:46 +0800</pubDate>
+      <guid>http://localhost:1313/posts/llm-notes-01/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;-hi-im-darren&#34;&gt;👋 Hi, I&amp;rsquo;m Darren&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;m a &lt;strong&gt;Large Language Model Algorithm Engineer at Ant International&lt;/strong&gt;, focusing on AI applications for global financial systems.&lt;/p&gt;
+&lt;p&gt;My primary interests include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Large Language Models&lt;/li&gt;
+&lt;li&gt;AI Agents&lt;/li&gt;
+&lt;li&gt;Financial AI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-about-this-blog&#34;&gt;📝 About This Blog&lt;/h2&gt;
+&lt;p&gt;This website serves as my public notebook.&lt;/p&gt;
+&lt;p&gt;I use it to document research papers, technical explorations, engineering practices, reading notes, and lessons learned from building real-world AI systems.&lt;/p&gt;
+&lt;p&gt;Rather than pursuing completeness, I focus on understanding concepts deeply, organizing knowledge systematically, and recording practical experience that may also benefit others.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
