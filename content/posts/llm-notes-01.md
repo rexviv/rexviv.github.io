@@ -1,5 +1,5 @@
 ---
-title: "大语言模型学习笔记（一）：基础概念整理"
+title: "LLM 随手录：在大模型的世界里散步"
 date: 2026-07-11T11:53:46+08:00
 draft: false
 
@@ -8,7 +8,7 @@ summary: ""
 
 categories:
   - LLM Foundations
-  
+
 tags:
   - LLM
   - Transformer
@@ -23,3 +23,4 @@ ShowPostNavLinks: true
 
 comments: false
 ---
+
